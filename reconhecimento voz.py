@@ -12,5 +12,5 @@ def ouvir_microfone(tempo=10):
         except sr.UnknownValueError:
             print("Não foi possível transcrever o que foi falado.")
 
-
 ouvir_microfone(10)
+
